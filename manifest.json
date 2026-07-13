@@ -1,0 +1,42 @@
+{
+  "name": "سلامتك - Salamatak",
+  "short_name": "سلامتك",
+  "description": "منصة طبية ذكية لمراقبة العلامات الحيوية والاستشارة الطبية الفورية بالذكاء الاصطناعي",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0A1408",
+  "background_color": "#0A1408",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%230A1408' width='192' height='192'/><circle cx='96' cy='96' r='60' fill='%2300FF2F'/><path d='M96 70 L110 90 L90 90 Z' fill='%230A1408'/><path d='M96 122 L82 102 L112 102 Z' fill='%230A1408'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%230A1408' width='512' height='512'/><circle cx='256' cy='256' r='160' fill='%2300FF2F'/><path d='M256 186 L293 240 L240 240 Z' fill='%230A1408'/><path d='M256 326 L219 272 L299 272 Z' fill='%230A1408'/></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["medical", "health", "productivity"],
+  "shortcuts": [
+    {
+      "name": "بدء الفحص",
+      "short_name": "فحص",
+      "description": "ابدأ فحص العلامات الحيوية الآن",
+      "url": "/?action=start-exam"
+    },
+    {
+      "name": "استشارة طبية",
+      "short_name": "استشارة",
+      "description": "احصل على استشارة طبية فورية",
+      "url": "/?action=consult"
+    }
+  ]
+}
